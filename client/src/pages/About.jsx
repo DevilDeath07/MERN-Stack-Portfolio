@@ -22,8 +22,8 @@ const About = () => {
     const phone = "+91 9500334590, +91 9944939560";
     const email = "balamurugankumar880@gmail.com";
     const dob = "02-07-2006";
-    const profileImg = (profile?.profileImageUrl && `http://localhost:5000${profile.profileImageUrl}`) || "/profile-pic.jpg";
-    const resumeUrl = (profile?.resumeUrl && `http://localhost:5000${profile.resumeUrl}`) || "#";
+    const profileImg = (profile?.profileImageUrl && `https://mern-stack-portfolio-backend-gs5k.onrender.com/${profile.profileImageUrl}`) || "/profile-pic.jpg";
+    const resumeUrl = (profile?.resumeUrl && `https://mern-stack-portfolio-backend-gs5k.onrender.com/${profile.resumeUrl}`) || "#";
 
     const cardStyle = {
         background: 'white',
