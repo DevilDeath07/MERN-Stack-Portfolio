@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+const API = "https://mern-stack-portfolio-backend-gs5k.onrender.com";
 
 const Skills = () => {
     const [skills, setSkills] = useState([]);
@@ -13,7 +14,7 @@ const Skills = () => {
 
     const fetchSkills = async () => {
         try {
-            const res = await axios.get('/api/skills');
+            const res = await axios.get('${API}/api/skills');
             setSkills(res.data);
             setLoading(false);
         } catch (err) {
