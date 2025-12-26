@@ -66,7 +66,7 @@ const Projects = () => {
                                     <div className="card-image-container">
                                         {proj.fileUrl ? (
                                             <img
-                                                src={`http://localhost:5000${proj.fileUrl}`}
+                                                src={`https://mern-stack-portfolio-backend-gs5k.onrender.com/${proj.fileUrl}`}
                                                 alt={proj.title}
                                             />
                                         ) : (
