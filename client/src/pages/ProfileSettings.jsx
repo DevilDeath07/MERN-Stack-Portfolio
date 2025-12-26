@@ -37,7 +37,7 @@ const ProfileSettings = () => {
                     instagramLink: res.data.instagramLink || ''
                 });
                 if (res.data.profileImageUrl) {
-                    setPreviewImage(`http://localhost:5000${res.data.profileImageUrl}`);
+                    setPreviewImage(`https://mern-stack-portfolio-backend-gs5k.onrender.com/${res.data.profileImageUrl}`);
                 }
             }
             setLoading(false);
