@@ -33,7 +33,7 @@ const Home = () => {
                     <div className="cta-group">
                         <a href="/contact" className="btn">Get in Touch</a>
                         {profile?.resumeUrl ? (
-                            <a href={`http://localhost:5000${profile.resumeUrl}`} target="_blank" rel="noopener noreferrer" className="btn" style={{ marginLeft: '1rem', backgroundColor: 'var(--secondary-color)' }}>Download CV</a>
+                            <a href={`https://mern-stack-portfolio-backend-gs5k.onrender.com/${profile.resumeUrl}`} target="_blank" rel="noopener noreferrer" className="btn" style={{ marginLeft: '1rem', backgroundColor: 'var(--secondary-color)' }}>Download CV</a>
                         ) : (
                             <a href="#" className="btn" style={{ marginLeft: '1rem', backgroundColor: 'var(--secondary-color)' }}>Download CV</a>
                         )}
