@@ -145,13 +145,15 @@ app.post('/api/certificates', authenticateToken, upload.single('image'), async (
 
 // --- SKILLS ROUTES ---
 app.get('/api/skills', async (req, res) => {
-    try {
-        const skills = await Skill.find().sort({ createdAt: -1 });
-        res.json(skills);
-    } catch (error) {
-        res.status(500).json({ error: 'Failed to fetch skills' });
-    }
+  try {
+    const skills = await Skill.find().sort({ createdAt: -1 });
+    res.json(skills);
+  } catch (error) {
+    console.error("🔥 Skills API Error →", error.name, error.message);
+    res.status(500).json({ error: "Failed to fetch skills" });
+  }
 });
+
 
 app.post('/api/skills', authenticateToken, async (req, res) => {
     try {
