@@ -1,0 +1,102 @@
+[debug] [2025-12-26T07:16:47.984Z] : 
+[debug] [2025-12-26T07:16:47.985Z] : ----------------------------------------------------------------------
+[debug] [2025-12-26T07:16:47.985Z] : Command:      D:\New Folder\node.exe C:\Users\Xiaomi\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js init
+[debug] [2025-12-26T07:16:47.985Z] : CLI Version:  1.22.2
+[debug] [2025-12-26T07:16:47.985Z] : Platform:     win32
+[debug] [2025-12-26T07:16:47.986Z] : Node Version: v20.19.6
+[debug] [2025-12-26T07:16:47.986Z] : Time:         Fri Dec 26 2025 12:46:47 GMT+0530 (India Standard Time)
+[debug] [2025-12-26T07:16:47.986Z] : ----------------------------------------------------------------------
+[debug] [2025-12-26T07:16:47.986Z] : 
+[debug] [2025-12-26T07:16:48.744Z] : > authorizing via signed-in user option
+[debug] [2025-12-26T07:16:48.745Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","ZohoCatalyst.project.import.CREATE"]
+[info] [2025-12-26T07:16:48.760Z] : 
+      ___  
+      \  \     ____           _             _                 _   
+   ___ \  \   / ___|   __ _  | |_    __ _  | |  _   _   ___  | |_ 
+  /  / /  /  | |      / _` | | __|  / _` | | | | | | | / __| | __|
+ /  / /__/   | |___  | (_| | | |_  | (_| | | | | |_| | \__ \ | |_ 
+ \  \         \____|  \__,_|  \__|  \__,_| |_|  \__, | |___/  \__|
+  \__\                                          |___/       
+
+You're about to initialize a Catalyst project in this directory:
+
+  D:\MERN Stack Portfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2025-12-26T07:16:48.775Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/orgs 
+
+[debug] [2025-12-26T07:16:48.995Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 26 Dec 2025 07:15:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-12-26T07:16:49.008Z] : i Setting up a new default project for this folder
+
+[debug] [2025-12-26T07:16:49.010Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project 
+
+[debug] [2025-12-26T07:16:49.069Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 26 Dec 2025 07:15:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-12-26T07:16:58.529Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/import 
+
+[debug] [2025-12-26T07:16:58.646Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 26 Dec 2025 07:15:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-12-26T07:17:12.783Z] : 
+[debug] [2025-12-26T07:17:12.785Z] : ----------------------------------------------------------------------
+[debug] [2025-12-26T07:17:12.785Z] : Command:      D:\New Folder\node.exe C:\Users\Xiaomi\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js init
+[debug] [2025-12-26T07:17:12.785Z] : CLI Version:  1.22.2
+[debug] [2025-12-26T07:17:12.785Z] : Platform:     win32
+[debug] [2025-12-26T07:17:12.785Z] : Node Version: v20.19.6
+[debug] [2025-12-26T07:17:12.786Z] : Time:         Fri Dec 26 2025 12:47:12 GMT+0530 (India Standard Time)
+[debug] [2025-12-26T07:17:12.786Z] : ----------------------------------------------------------------------
+[debug] [2025-12-26T07:17:12.786Z] : 
+[debug] [2025-12-26T07:17:13.312Z] : > authorizing via signed-in user option
+[debug] [2025-12-26T07:17:13.312Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","ZohoCatalyst.project.import.CREATE"]
+[info] [2025-12-26T07:17:13.323Z] : 
+      ___  
+      \  \     ____           _             _                 _   
+   ___ \  \   / ___|   __ _  | |_    __ _  | |  _   _   ___  | |_ 
+  /  / /  /  | |      / _` | | __|  / _` | | | | | | | / __| | __|
+ /  / /__/   | |___  | (_| | | |_  | (_| | | | | |_| | \__ \ | |_ 
+ \  \         \____|  \__,_|  \__|  \__,_| |_|  \__, | |___/  \__|
+  \__\                                          |___/       
+
+You're about to initialize a Catalyst project in this directory:
+
+  D:\MERN Stack Portfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2025-12-26T07:17:13.331Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/orgs 
+
+[debug] [2025-12-26T07:17:13.505Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 26 Dec 2025 07:16:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-12-26T07:17:13.514Z] : i Setting up a new default project for this folder
+
+[debug] [2025-12-26T07:17:13.515Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project 
+
+[debug] [2025-12-26T07:17:13.563Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 26 Dec 2025 07:16:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-12-26T07:17:22.981Z] : 
+[info] [2025-12-26T07:17:22.982Z] : Visit this URL on this device to proceed:
+[info] [2025-12-26T07:17:22.983Z] : https://console.catalyst.zoho.in/baas/60037976973/index#/?port=3000&type=cli
+[info] [2025-12-26T07:17:22.983Z] : 
+[debug] [2025-12-26T07:17:38.688Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/13499000000197059 
+
+[debug] [2025-12-26T07:17:38.810Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 26 Dec 2025 07:16:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-12-26T07:17:38.813Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/13499000000197059/environment 
+
+[debug] [2025-12-26T07:17:38.887Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 26 Dec 2025 07:16:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-12-26T07:17:38.936Z] : i New Project has been successfully created and associated with this directory.
+[info] [2025-12-26T07:17:38.936Z] : i .catalystrc file has be successfully created with project details.
+[info] [2025-12-26T07:17:38.937Z] : 
