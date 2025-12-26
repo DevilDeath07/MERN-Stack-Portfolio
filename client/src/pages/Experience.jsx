@@ -74,7 +74,7 @@ const Experience = () => {
                                 <div style={{ flex: '0 0 200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     {exp.logoUrl ? (
                                         <img
-                                            src={`http://localhost:5000${exp.logoUrl}`}
+                                            src={`https://mern-stack-portfolio-backend-gs5k.onrender.com/${exp.logoUrl}`}
                                             alt={exp.company}
                                             style={{
                                                 width: '150px',
