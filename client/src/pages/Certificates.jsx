@@ -88,7 +88,7 @@ const Certificates = () => {
                                 <div className="card-image-container">
                                     {cert.fileUrl ? (
                                         <img
-                                            src={`http://localhost:5000${cert.fileUrl}`}
+                                            src={`https://mern-stack-portfolio-backend-gs5k.onrender.com/${cert.fileUrl}`}
                                             alt={cert.title}
                                             onError={(e) => { e.target.onerror = null; e.target.src = 'https://via.placeholder.com/300x200?text=No+Preview'; }}
                                         />
