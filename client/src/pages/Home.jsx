@@ -21,7 +21,7 @@ const Home = () => {
     // Tagline from image: "an IT student. I am a Programmer, debugger, Software Developer, and Full Stack web developer."
     const bioText = profile?.aboutBio || "Hi! I'm Balamurugan, an IT student.\nI am a Programmer, debugger, Software Developer, and Full Stack web developer.";
     // Use the uploaded profile-pic.jpg as default
-    const profileImg = (profile?.profileImageUrl && `http://localhost:5000${profile.profileImageUrl}`) || "/profile-pic.jpg";
+    const profileImg = (profile?.profileImageUrl && `https://mern-stack-portfolio-backend-gs5k.onrender.com/${profile.profileImageUrl}`) || "/profile-pic.jpg";
 
     return (
         <div>
